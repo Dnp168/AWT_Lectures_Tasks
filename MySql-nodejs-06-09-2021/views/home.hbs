@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <title>Nodejs DB Operation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"
+    />
+  </head>
+  <center>
+  <body>
+    
+    <div class="University-box">
+      <h1>University From</h1>
+      <form method="POST" action="/addinfo">
+        <label>sub_id</label>
+        <input type="text" name="sub_code" placeholder="" />
+        <label>sub_name</label>
+        <input  type="text" name="sub_name" placeholder="" />
+        <label>inst_name</label>
+        <input type="text" name="ins_name" placeholder="" />
+        <label>dept_name</label>
+        <input  type="text" name="dept_name" placeholder="" />
+        <label>sem &nbsp&nbsp<select name="semester">
+          <option value="select">Select</option>
+          <option value="s1">Sem 1</option>
+          <option value="s2">Sem 2</option>
+          <option value="s3">Sem 3</option>
+          <option value="s4">Sem 4</option>
+          <option value="s5">Sem 5</option>
+          <option value="s6">Sem 6</option>
+        </select></label>
+        <br>
+        <br>
+        <button>Submit</button>
+      </form>
+</div>
+</body>
+</html>
+<footer>
+    <p>
+      Prepared by : Darshan Patel 19CE095
+    </p>
+  </footer>
+</center>
+  <style>
+  body {
+    background-color: #344a72;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  footer {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
